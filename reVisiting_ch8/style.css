@@ -1,0 +1,23 @@
+.yellow{
+    background: yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.text-black{
+    color: black;
+}
+.text-white{
+    color: white;
+}
+.bulbOn{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+}
+.off{
+    background: white;
+}
