@@ -2,7 +2,7 @@ const tellMeAjoke = () => {
     let randomNumber = Math.floor(Math.random() * (jokes.length));
     // let jokeAaija = document.getElementById("jokeAaija");
     //innerHTML rah outerHTML use garda get element cahidaina so we commented above line.
-    jokeAaija.innerHTML = `" ${<i>jokes[randomNumber]</i>} "`;
+    jokeAaija.innerHTML = `" <i>${jokes[randomNumber]} </i>"`;
 };
 
 let jokes = [`I was going to tell a time traveling joke but you guys didn't like it..😜😜`,
